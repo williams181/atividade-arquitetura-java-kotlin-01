@@ -19,6 +19,12 @@
         android:layout_height="wrap_content"
         android:text="Voce vai para Activity 2"
         android:onClick="goToActivity2"/>
+    <Button
+        android:id="@+id/btnStopService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parar Serviço" />
+
 
     <!-- Add any other UI components you want -->
 

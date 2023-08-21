@@ -18,6 +18,8 @@ public class Activity2 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Activity2.this, Activity3.class);
                 startActivity(intent);
+                int activityNumber = intent.getIntExtra("activityNumber", -1);
+                String contactName = intent.getStringExtra("contactName");
             }
         });
     }
