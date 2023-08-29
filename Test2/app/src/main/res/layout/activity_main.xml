@@ -25,6 +25,24 @@
         android:layout_height="wrap_content"
         android:text="Parar Serviço" />
 
+    <Button
+        android:id="@+id/btnDisableActivities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desabilitar Atividades" />
+
+    <Button
+        android:id="@+id/btnEnableActivities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Habilitar Atividades" />
+
+    <TextView
+        android:id="@+id/deviceStateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado do dispositivo: "
+        android:layout_centerInParent="true"/>
 
     <!-- Add any other UI components you want -->
 
